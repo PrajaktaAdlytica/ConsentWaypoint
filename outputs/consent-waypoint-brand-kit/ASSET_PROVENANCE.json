@@ -1,0 +1,115 @@
+{
+  "version": "2.0",
+  "date": "2026-10-08",
+  "reference": {
+    "url": "http://127.0.0.1:4317/flakemap-brand-kit/",
+    "use": "Coverage and depth reference only. No artwork, code, copy, layout or product data reused."
+  },
+  "original": [
+    "Opposing-bracket and waypoint mark",
+    "26 UI icons",
+    "7 editable SVG visual assets",
+    "Kit HTML CSS JavaScript"
+  ],
+  "generated": {
+    "file": "visuals/folio-still.png",
+    "method": "Built-in Image Generation tool",
+    "usage": "Original abstract brand material; not a product screenshot",
+    "prompt_file": "ARTWORK_PROMPT.txt"
+  },
+  "social": [
+    {
+      "file": "social/linkedin.svg",
+      "source": "https://github.com/twbs/icons/blob/main/icons/linkedin.svg",
+      "license": "MIT; notice included",
+      "status": "Third-party icon specimen, trademark-use review pending; no profile URL"
+    },
+    {
+      "file": "social/crunchbase.svg",
+      "source": "https://github.com/simple-icons/simple-icons/blob/develop/icons/crunchbase.svg",
+      "license": "CC0-1.0; notice included",
+      "status": "Third-party icon specimen, trademark-use review pending; no profile URL"
+    }
+  ],
+  "fonts": "See brand-assets/asset-manifest.json and family OFL notices",
+  "hashes": {
+    "visuals/report-ledger.svg": "7960475d7ee0047dbc447573ce0d8317aa710138226114c612a701ce1a51de01",
+    "visuals/deadline-calendar.svg": "b3fc6ed9905eb747c2cc43e0e509ad1326f55e9241dc244d5b1130d3aca9c0a8",
+    "visuals/decision-route.svg": "a40529c5b2de0ff093d02e32a29dfbc0affce4244506229c6681d02c9a70ab8b",
+    "visuals/destination-map.svg": "5648dc65d2c24f11fd4a6d2480dc9ad132b1165606e3a5d2c6c8f66b810cfb00",
+    "visuals/receipt-chain.svg": "e2cae87d8a99191043e4eccdd49a6d23c1db933ec536c6652c297d7847cc2de6",
+    "visuals/rights-folio.svg": "94cbfd0366a7fea699e28fb47216f0840a85e1a9d3269ddda3f7a6ac105a6020",
+    "visuals/reviewer-flow.svg": "9c4748336e05567bc7c2cb7a57aa61f146bb60a745a9e80bcf35c6633cfb9f48",
+    "visuals/folio-still.png": "97aec4169fb987977c3879ed3f70dd848a9d151e7b2ec5a103cbd03d0bbb0f0d",
+    "social/simple-icons-LICENSE.md": "9046848b63a5c92bff14e4accca80bd987e0623b74adf9226ce5198d312b79d5",
+    "social/crunchbase.svg": "93cb73424e7cbcf30328ab6bd72ddcadbfa11b819a512b087d60c1afa8f16c56",
+    "social/bootstrap-icons-LICENSE.txt": "0fb3e11bd57e896c5a512afd64864d28a37de45d19835016c87ca1ad19ead969",
+    "social/linkedin.svg": "ddcbb2735eea12f090ea0ee371d1b9a3462531dc11efd0e944adc2d38c71e2df",
+    "icons/search.svg": "02ea42cafb71f950b4f8fb5b465ea3cfe4c45ffc67e715f2274b86a7b6cfc41e",
+    "icons/reset.svg": "7a731600d8d58126e39d54fe4344742d6ec55d56e72f2060fe7bdba77217c774",
+    "icons/rights-review.svg": "f92dce176e6e70e6c963b65471478d84c737ec546728f06ee92af2c6e04f383e",
+    "icons/rights-signal.svg": "695aa61ddcae1560fcd5d4fc2d2a94c197014dc280333eff3a208b9cc2b6d6c0",
+    "icons/person.svg": "97c76d24c0e0b43409e47dae68d37812429067fc0b468748aa63e82aacc11df1",
+    "icons/chevron-down.svg": "9f0714b3720e46c7e9dcdf4b51eda8f39d911096d2c8a2f51ef9c95dad7112ca",
+    "icons/review.svg": "7eadf684450ab85fa3984b2af477997c0d8c76d08474297b8737131cafdaaa6f",
+    "icons/lock.svg": "55496b370593b4deb4bb19bb545cb1b34aaa5a0ca2687e34ffec00b160d1d0cc",
+    "icons/arrow-right.svg": "6387bd235ddf8d04d24cce4a7cc643ab1fed74f8a7721a8e9816cd16e23b0230",
+    "icons/download.svg": "df988ccbacda77036c83be5f9ecc424b75277cb5188fc9cf6940209f97a2cfaf",
+    "icons/eye-off.svg": "19f9b1c6c6d335da73e8ff7fba1048ad93576b07a93f2b050b9a06c90b560fcd",
+    "icons/external.svg": "80cb76c6f1fbf29d00e00e1dbe9dd8be27fe06f4fdedc8299897ba8ca7b1f7b8",
+    "icons/check.svg": "b11b1eaa1a1b5afd5085bb5748bf18e4fb11352b49b738e8de721fa4debc0c42",
+    "icons/warning.svg": "2e63330f9d7f02e5130d51279bed392604ffe5ff89d82748be9e3e3aec7d7321",
+    "icons/email.svg": "4d62fe17684e85acd2cfb69ea8ee7665a5f945178bcf532236bbae1073e6f907",
+    "icons/info.svg": "d7221e78a6704ff6b89bda6a5f4659c68cd9bcd1ad58d2cba1f93220c721335b",
+    "icons/close.svg": "d90500b8568d7190006def1553a1bd4eaa29b2c89082429c7306cb6299e82a7f",
+    "icons/play.svg": "aba40f475de750717b633aaca865dbf4d0b0c677b250f91c7989785526b3d7cf",
+    "icons/source.svg": "a11a9ef4b864bf86716787ea4f3dc4ed797e712733e0415f75d02ac5abe248ba",
+    "icons/rights-desk.svg": "3248a98764f8eb04ae249b4a32d02b74654dc32303c72c1281e65b0ea9ccfd0c",
+    "icons/rights-report.svg": "9fe13045426abcdfcc03010af3705053461e217c3c10eb74317f28dcc8d68b43",
+    "icons/eye.svg": "c890f3029ebe6b2fe9ccef613a98f8962918bf5dbea746a4bb7be19aee281ad1",
+    "icons/pause.svg": "06ae5e20a798b454997e7c0a0569a2d024839d2130b25bfbabd107225b792134",
+    "icons/deny.svg": "4dc9b8b477cd64940845b98ccc51e160f97b26bee5b3ef50be39cfda5d085ffe",
+    "icons/menu.svg": "ea72ba2a14b31b6284714ae192b01bd88420f74297ddb0fb6b28024e1452fef0",
+    "icons/rights-proof.svg": "043b4fa8d2b447d13ef2637f1a6ba852fb5b746480f34ad9c835654833500ed7"
+  },
+  "visual_library_2_1": {
+    "created": "2026-10-09",
+    "snapshot": "2026-10-08",
+    "original_svgs": [
+      "library/role-swimlanes.svg",
+      "library/review-age.svg",
+      "library/evidence-architecture.svg",
+      "library/expiry-propagation.svg",
+      "library/outcome-bars.svg",
+      "library/receipt-anatomy.svg",
+      "library/daily-evaluations.svg",
+      "library/ambiguity-state.svg"
+    ],
+    "generated_art": {
+      "method": "OpenAI built-in image generation; original decorative concepts",
+      "prompts": "library/IMAGE_PROMPTS.json",
+      "files": [
+        "visuals/archive-study.png",
+        "visuals/passage-study.png"
+      ]
+    },
+    "fixture": "library/evaluations.json",
+    "note": "Independent 12-event sample. All data synthetic. No requests executed.",
+    "sha256": {
+      "library/evaluations.csv": "011e74a96feb0455559fdde1d7ef3854fe9861a8e3dcb1cd5072289af06caa47",
+      "library/visual-brief.md": "48c14e65911c1f7c098827bba9c217b39f02d090f83c94f121de354d8002c1f8",
+      "library/role-swimlanes.svg": "aff3b3468d95f28e20dc5c096efd34d04252255ef91376562ff8eeb64dc447ff",
+      "library/review-age.svg": "eb2a1fb042db90aae853f88a67d62729fef561c79850aec293a106c8f42a853e",
+      "library/evidence-architecture.svg": "a2e05228b2dfe064b97c7bcc75aaf875b9c9f9c8b2ef60d73596c7d4e48c4075",
+      "library/expiry-propagation.svg": "131c0d4894e8bb04701c2d4cd56241b04390f53f93fb80c0da9e7b69dc3e3089",
+      "library/evaluations.json": "fa550eafa2d9d769ddd7a3d35dd3f8013941f718362fe6b8b214fd09abcac152",
+      "library/outcome-bars.svg": "4f515ac503782dbb130d53e5ec2933acecb17f41012b5e442b0e22bf958f0eb3",
+      "library/IMAGE_PROMPTS.json": "6d0d05a62c51bfc728526905b0dee71bef07fdc18e5d0ca1f4815d983cbfc343",
+      "library/receipt-anatomy.svg": "23935feacd7a1b6fba4bdca1f0180e0fc2bb31d8ed546319222ca7b92be512d9",
+      "library/daily-evaluations.svg": "5e99075842f1590f1119d62047d0a94ed28c87584b574526e0af2c0e8897adbf",
+      "library/ambiguity-state.svg": "a1b1c408fbf92970c88e188ff42bbf1992ed64ff86b278bbd57d80d626918627",
+      "visuals/archive-study.png": "bf1855674dbb153899b1630d5d5342f442ac68fe83306da459cb20ad041f4a01",
+      "visuals/passage-study.png": "f96b53c2415262904c4f96443d2d91b60e409ed9766209c94204b5ac5c6f6529"
+    }
+  }
+}

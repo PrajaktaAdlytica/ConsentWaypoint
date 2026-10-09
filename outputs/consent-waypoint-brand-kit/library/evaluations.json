@@ -1,0 +1,115 @@
+{
+  "label": "DEMO \u2014 SYNTHETIC DATA",
+  "snapshot": "2026-10-08",
+  "scope": "Separate 12-event visual-library fixture; not the main kit ten-event specimen. No requests executed.",
+  "records": [
+    {
+      "id": "EV-01",
+      "source": "LIC-17",
+      "purpose": "Read",
+      "destination": "Internal",
+      "outcome": "Allow",
+      "date": "2026-10-01",
+      "open_days": 0
+    },
+    {
+      "id": "EV-02",
+      "source": "LIC-17",
+      "purpose": "Embed",
+      "destination": "Internal",
+      "outcome": "Allow",
+      "date": "2026-10-02",
+      "open_days": 0
+    },
+    {
+      "id": "EV-03",
+      "source": "LIC-17",
+      "purpose": "Inference",
+      "destination": "External",
+      "outcome": "Requires counsel",
+      "date": "2026-10-03",
+      "open_days": 5
+    },
+    {
+      "id": "EV-04",
+      "source": "LIC-17",
+      "purpose": "Redistribute",
+      "destination": "External",
+      "outcome": "Deny",
+      "date": "2026-10-03",
+      "open_days": 0
+    },
+    {
+      "id": "EV-05",
+      "source": "LIC-22",
+      "purpose": "Read",
+      "destination": "Internal",
+      "outcome": "Requires counsel",
+      "date": "2026-10-04",
+      "open_days": 4
+    },
+    {
+      "id": "EV-06",
+      "source": "LIC-31",
+      "purpose": "Read",
+      "destination": "Internal",
+      "outcome": "Deny",
+      "date": "2026-10-04",
+      "open_days": 0
+    },
+    {
+      "id": "EV-07",
+      "source": "LIC-17",
+      "purpose": "Read",
+      "destination": "Internal",
+      "outcome": "Allow",
+      "date": "2026-10-05",
+      "open_days": 0
+    },
+    {
+      "id": "EV-08",
+      "source": "LIC-22",
+      "purpose": "Inference",
+      "destination": "External",
+      "outcome": "Requires counsel",
+      "date": "2026-10-06",
+      "open_days": 2
+    },
+    {
+      "id": "EV-09",
+      "source": "LIC-31",
+      "purpose": "Embed",
+      "destination": "Internal",
+      "outcome": "Deny",
+      "date": "2026-10-06",
+      "open_days": 0
+    },
+    {
+      "id": "EV-10",
+      "source": "LIC-17",
+      "purpose": "Embed",
+      "destination": "Internal",
+      "outcome": "Allow",
+      "date": "2026-10-07",
+      "open_days": 0
+    },
+    {
+      "id": "EV-11",
+      "source": "LIC-17",
+      "purpose": "Inference",
+      "destination": "External",
+      "outcome": "Requires counsel",
+      "date": "2026-10-08",
+      "open_days": 0
+    },
+    {
+      "id": "EV-12",
+      "source": "LIC-31",
+      "purpose": "Read",
+      "destination": "Internal",
+      "outcome": "Deny",
+      "date": "2026-10-08",
+      "open_days": 0
+    }
+  ]
+}

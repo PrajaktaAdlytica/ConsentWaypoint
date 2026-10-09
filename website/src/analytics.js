@@ -1,0 +1,4 @@
+// No provider is connected. An integration may listen only after explicit consent.
+const seen=new Set();
+export function track(name,fields={}){if(window.CW_ANALYTICS_CONSENT!==true)return;const demo=location.pathname.startsWith('/demo');const key=`${name}:${fields.path||location.pathname}:${fields.id||''}`;if(seen.has(key))return;seen.add(key);const utm=Object.fromEntries([...new URLSearchParams(location.search)].filter(([k])=>/^utm_(source|medium|campaign|content|term)$/.test(k)).map(([k,v])=>[k,v.slice(0,100)]));window.dispatchEvent(new CustomEvent('cw:analytics',{detail:{event:name,event_id:crypto.randomUUID(),at:new Date().toISOString(),environment:demo?'synthetic_demo':'public',...utm,...fields}}))}
+export function installEvents(){const start=e=>{const form=e.target.closest('form[data-lead-form]');if(form)track('form_start',{id:location.pathname})};document.addEventListener('focusin',start);return()=>document.removeEventListener('focusin',start)}

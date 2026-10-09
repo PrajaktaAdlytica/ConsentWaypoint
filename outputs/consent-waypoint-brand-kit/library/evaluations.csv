@@ -1,0 +1,14 @@
+DEMO — SYNTHETIC DATA; no executions
+id,source,purpose,destination,outcome,date,open_days
+EV-01,LIC-17,Read,Internal,Allow,2026-10-01,0
+EV-02,LIC-17,Embed,Internal,Allow,2026-10-02,0
+EV-03,LIC-17,Inference,External,Requires counsel,2026-10-03,5
+EV-04,LIC-17,Redistribute,External,Deny,2026-10-03,0
+EV-05,LIC-22,Read,Internal,Requires counsel,2026-10-04,4
+EV-06,LIC-31,Read,Internal,Deny,2026-10-04,0
+EV-07,LIC-17,Read,Internal,Allow,2026-10-05,0
+EV-08,LIC-22,Inference,External,Requires counsel,2026-10-06,2
+EV-09,LIC-31,Embed,Internal,Deny,2026-10-06,0
+EV-10,LIC-17,Embed,Internal,Allow,2026-10-07,0
+EV-11,LIC-17,Inference,External,Requires counsel,2026-10-08,0
+EV-12,LIC-31,Read,Internal,Deny,2026-10-08,0

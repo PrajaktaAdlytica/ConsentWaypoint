@@ -1,0 +1,11 @@
+.DS_Store
+.env
+.env.*
+!.env.example
+*.log
+
+website/node_modules/
+website/dist/
+website/.vite/
+work/vendor/
+

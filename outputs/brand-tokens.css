@@ -1,0 +1,54 @@
+@font-face{font-family:Manrope;src:url("brand-assets/fonts/Manrope[wght].ttf") format("truetype");font-weight:200 800;font-style:normal;font-display:swap}
+@font-face{font-family:"IBM Plex Mono";src:url("brand-assets/fonts/IBMPlexMono-Regular.ttf") format("truetype");font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:"IBM Plex Mono";src:url("brand-assets/fonts/IBMPlexMono-Medium.ttf") format("truetype");font-weight:500;font-style:normal;font-display:swap}
+:root{
+  --cw-canvas: #F6F3EC;
+  --cw-surface: #FFFEFA;
+  --cw-ink: #202522;
+  --cw-text-secondary: #5A625D;
+  --cw-coral: #D45538;
+  --cw-action: #B8422B;
+  --cw-action-hover: #9E3521;
+  --cw-action-pressed: #862D1C;
+  --cw-lilac: #D8CEF2;
+  --cw-sage: #DDE7DC;
+  --cw-allow: #226043;
+  --cw-allow-tint: #E5EFE7;
+  --cw-counsel: #79500C;
+  --cw-counsel-tint: #FFF1CC;
+  --cw-deny: #942F32;
+  --cw-deny-tint: #FBE7E7;
+  --cw-focus: #4D3AA0;
+  --cw-border: #8B948D;
+  --cw-divider: #CDD3CB;
+  --cw-font: "Manrope", sans-serif;
+  --cw-font-data: "IBM Plex Mono", monospace;
+  --cw-content: 1312px; --cw-reading: 720px; --cw-form: 640px;
+  --cw-gutter: 64px; --cw-columns: 12; --cw-grid-gap: 24px;
+  --cw-header: 80px; --cw-radius-control: 8px; --cw-radius-card: 16px;
+  --cw-shadow-paper: 0 8px 24px rgba(32,37,34,.08);
+  --cw-shadow-evidence: 0 20px 64px rgba(32,37,34,.12);
+  --cw-shadow-overlay: 0 24px 80px rgba(32,37,34,.18);
+  --cw-ease: cubic-bezier(.22,1,.36,1);
+  --cw-micro: 180ms; --cw-reveal: 420ms; --cw-scene: 800ms;
+  --cw-display: clamp(44px,6.12vw,88px);
+  --cw-h1: clamp(40px,4.45vw,64px); --cw-h2: clamp(32px,3.62vw,52px);
+}
+:root{--cw-space-4:4px}
+:root{--cw-space-8:8px}
+:root{--cw-space-12:12px}
+:root{--cw-space-16:16px}
+:root{--cw-space-20:20px}
+:root{--cw-space-24:24px}
+:root{--cw-space-32:32px}
+:root{--cw-space-40:40px}
+:root{--cw-space-48:48px}
+:root{--cw-space-64:64px}
+:root{--cw-space-80:80px}
+:root{--cw-space-96:96px}
+:root{--cw-space-128:128px}
+@media(max-width:1199px){:root{--cw-gutter:32px;--cw-columns:8}}
+@media(max-width:767px){:root{--cw-gutter:20px;--cw-columns:4;--cw-grid-gap:16px;--cw-header:64px}}
+:focus-visible{outline:3px solid var(--cw-focus);outline-offset:3px}
+[data-cw-theme="dark"] :focus-visible{outline-color:var(--cw-lilac)}
+@media(prefers-reduced-motion:reduce){[data-cw-motion]{animation:none!important;transition:none!important;transform:none!important}}

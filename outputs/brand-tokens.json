@@ -1,0 +1,94 @@
+{
+  "version": "1.0",
+  "date": "2026-10-08",
+  "territory": "Evidence in Motion",
+  "colors": {
+    "canvas": "#F6F3EC",
+    "surface": "#FFFEFA",
+    "ink": "#202522",
+    "textSecondary": "#5A625D",
+    "coral": "#D45538",
+    "action": "#B8422B",
+    "actionHover": "#9E3521",
+    "actionPressed": "#862D1C",
+    "lilac": "#D8CEF2",
+    "sage": "#DDE7DC",
+    "allow": "#226043",
+    "allowTint": "#E5EFE7",
+    "counsel": "#79500C",
+    "counselTint": "#FFF1CC",
+    "deny": "#942F32",
+    "denyTint": "#FBE7E7",
+    "focus": "#4D3AA0",
+    "border": "#8B948D",
+    "divider": "#CDD3CB"
+  },
+  "spacing": [
+    4,
+    8,
+    12,
+    16,
+    20,
+    24,
+    32,
+    40,
+    48,
+    64,
+    80,
+    96,
+    128
+  ],
+  "radii": {
+    "label": 4,
+    "control": 8,
+    "evidence": 12,
+    "card": 16,
+    "scene": 24
+  },
+  "layout": {
+    "contentMax": 1312,
+    "readingMax": 720,
+    "formMax": 640,
+    "desktopGutter": 64,
+    "tabletGutter": 32,
+    "mobileGutter": 20,
+    "gridColumns": [
+      12,
+      8,
+      4
+    ],
+    "gridGapDesktop": 24,
+    "gridGapMobile": 16,
+    "headerDesktop": 80,
+    "headerMobile": 64
+  },
+  "fonts": {
+    "displayBodyUI": "Manrope",
+    "data": "IBM Plex Mono"
+  },
+  "motion": {
+    "microMs": 180,
+    "revealMs": 420,
+    "sceneMs": 800,
+    "flipMs": 420,
+    "ease": "cubic-bezier(.22,1,.36,1)"
+  },
+  "semantic": {
+    "text": "ink",
+    "textOnDark": "surface",
+    "primaryBackground": "action",
+    "primaryForeground": "surface",
+    "statusAllow": [
+      "allow",
+      "allowTint"
+    ],
+    "statusCounsel": [
+      "counsel",
+      "counselTint"
+    ],
+    "statusDeny": [
+      "deny",
+      "denyTint"
+    ]
+  }
+}

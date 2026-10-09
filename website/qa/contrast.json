@@ -1,0 +1,44 @@
+[
+  {
+    "pair": "Body ink on paper",
+    "foreground": "#202522",
+    "background": "#F6F3EC",
+    "ratio": 14.05,
+    "normalTextAA": true
+  },
+  {
+    "pair": "Secondary on paper",
+    "foreground": "#5A625D",
+    "background": "#F6F3EC",
+    "ratio": 5.67,
+    "normalTextAA": true
+  },
+  {
+    "pair": "Button white on coral",
+    "foreground": "#FFFFFF",
+    "background": "#B8422B",
+    "ratio": 5.45,
+    "normalTextAA": true
+  },
+  {
+    "pair": "Ink on lilac",
+    "foreground": "#202522",
+    "background": "#D8CEF2",
+    "ratio": 10.4,
+    "normalTextAA": true
+  },
+  {
+    "pair": "Ink on sage",
+    "foreground": "#202522",
+    "background": "#DDE7DC",
+    "ratio": 12.26,
+    "normalTextAA": true
+  },
+  {
+    "pair": "Sheet on ink",
+    "foreground": "#FFFEFA",
+    "background": "#202522",
+    "ratio": 15.42,
+    "normalTextAA": true
+  }
+]

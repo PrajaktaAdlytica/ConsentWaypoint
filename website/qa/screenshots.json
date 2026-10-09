@@ -1,0 +1,202 @@
+[
+  {
+    "file": "screenshots/demo-receipt-desktop.png",
+    "route": "/demo/receipts/CW-0017",
+    "width": 1440,
+    "height": 1000,
+    "source": "Actual browser render",
+    "syntheticProductData": true
+  },
+  {
+    "file": "screenshots/demo-record-desktop.png",
+    "route": "/demo/records/LIC-17",
+    "width": 1440,
+    "height": 1000,
+    "source": "Actual browser render",
+    "syntheticProductData": true
+  },
+  {
+    "file": "screenshots/demo-register-mobile.jpg",
+    "route": "/demo",
+    "width": 390,
+    "height": 844,
+    "source": "Actual browser render",
+    "syntheticProductData": true
+  },
+  {
+    "file": "screenshots/demo-request-desktop.jpg",
+    "route": "/demo/request",
+    "width": 1440,
+    "height": 1000,
+    "source": "Actual browser render",
+    "syntheticProductData": true
+  },
+  {
+    "file": "screenshots/demo-request-mobile.jpg",
+    "route": "/demo/request",
+    "width": 390,
+    "height": 844,
+    "source": "Actual browser render",
+    "syntheticProductData": true
+  },
+  {
+    "file": "screenshots/home-desktop.png",
+    "route": "/",
+    "width": 1440,
+    "height": 1000,
+    "source": "Actual browser render",
+    "syntheticProductData": false
+  },
+  {
+    "file": "screenshots/home-mobile.png",
+    "route": "/",
+    "width": 390,
+    "height": 844,
+    "source": "Actual browser render",
+    "syntheticProductData": false
+  },
+  {
+    "file": "screenshots/pricing-desktop.png",
+    "route": "/pricing",
+    "width": 1440,
+    "height": 1000,
+    "source": "Actual browser render",
+    "syntheticProductData": false
+  },
+  {
+    "file": "screenshots/pricing-mobile.png",
+    "route": "/pricing",
+    "width": 390,
+    "height": 844,
+    "source": "Actual browser render",
+    "syntheticProductData": false
+  },
+  {
+    "file": "screenshots/product-report-desktop.png",
+    "route": "/products/rights-report",
+    "width": 1440,
+    "height": 1000,
+    "source": "Actual browser render",
+    "syntheticProductData": true
+  },
+  {
+    "file": "screenshots/product-review-desktop.png",
+    "route": "/products/rights-review",
+    "width": 1440,
+    "height": 1000,
+    "source": "Actual browser render",
+    "syntheticProductData": true
+  },
+  {
+    "file": "screenshots/workflow-decision-mobile.png",
+    "route": "/#request",
+    "width": 390,
+    "height": 844,
+    "source": "Actual browser render",
+    "syntheticProductData": true
+  },
+  {
+    "file": "screenshots/workflow-desktop.png",
+    "route": "/#request",
+    "width": 1440,
+    "height": 1000,
+    "source": "Actual browser render",
+    "syntheticProductData": true
+  },
+  {
+    "file": "screenshots/workflow-mobile.png",
+    "route": "/#request",
+    "width": 390,
+    "height": 844,
+    "source": "Actual browser render",
+    "syntheticProductData": true
+  },
+  {
+    "file": "screenshots/workshop-success-desktop.png",
+    "route": "/workshop",
+    "width": 1440,
+    "height": 1000,
+    "source": "Actual browser render",
+    "syntheticProductData": false
+  },
+  {
+    "file": "screenshots/workshop-success-mobile.png",
+    "route": "/workshop",
+    "width": 390,
+    "height": 844,
+    "source": "Actual browser render",
+    "syntheticProductData": false
+  },
+  {
+    "file": "screenshots/refined-evidence-tablet.png",
+    "route": "/#evidence",
+    "width": 775,
+    "height": 804,
+    "source": "Actual browser render",
+    "syntheticProductData": true
+  },
+  {
+    "file": "screenshots/refined-modules-tablet.png",
+    "route": "/#modules",
+    "width": 775,
+    "height": 804,
+    "source": "Actual browser render",
+    "syntheticProductData": true
+  },
+  {
+    "file": "screenshots/refined-next-step-tablet.png",
+    "route": "/#next-step",
+    "width": 775,
+    "height": 804,
+    "source": "Actual browser render",
+    "syntheticProductData": true
+  },
+  {
+    "file": "screenshots/refined-people-tablet.png",
+    "route": "/#people",
+    "width": 775,
+    "height": 804,
+    "source": "Actual browser render",
+    "syntheticProductData": true
+  },
+  {
+    "file": "screenshots/refined-pilot-tablet.png",
+    "route": "/#pilot",
+    "width": 775,
+    "height": 804,
+    "source": "Actual browser render",
+    "syntheticProductData": true
+  },
+  {
+    "file": "screenshots/refined-request-tablet.png",
+    "route": "/#request",
+    "width": 775,
+    "height": 804,
+    "source": "Actual browser render",
+    "syntheticProductData": true
+  },
+  {
+    "file": "screenshots/refined-rights-tablet.png",
+    "route": "/#rights",
+    "width": 775,
+    "height": 804,
+    "source": "Actual browser render",
+    "syntheticProductData": true
+  },
+  {
+    "file": "screenshots/refined-scope-tablet.png",
+    "route": "/#scope",
+    "width": 775,
+    "height": 804,
+    "source": "Actual browser render",
+    "syntheticProductData": true
+  },
+  {
+    "file": "screenshots/refined-testimonials-desktop.png",
+    "route": "/#perspectives",
+    "width": 1440,
+    "height": 900,
+    "source": "Actual browser render",
+    "syntheticProductData": true
+  }
+]

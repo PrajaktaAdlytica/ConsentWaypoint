@@ -1,0 +1,159 @@
+{
+  "method": "WCAG relative luminance; individual token pairs only, not whole-site certification",
+  "pairs": [
+    {
+      "foreground": "#202522",
+      "background": "#F6F3EC",
+      "roles": [
+        "ink",
+        "canvas"
+      ],
+      "ratio": 14.05,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "foreground": "#5A625D",
+      "background": "#F6F3EC",
+      "roles": [
+        "textSecondary",
+        "canvas"
+      ],
+      "ratio": 5.67,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "foreground": "#202522",
+      "background": "#D8CEF2",
+      "roles": [
+        "ink",
+        "lilac"
+      ],
+      "ratio": 10.4,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "foreground": "#202522",
+      "background": "#DDE7DC",
+      "roles": [
+        "ink",
+        "sage"
+      ],
+      "ratio": 12.26,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "foreground": "#FFFEFA",
+      "background": "#B8422B",
+      "roles": [
+        "surface",
+        "action"
+      ],
+      "ratio": 5.4,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "foreground": "#FFFEFA",
+      "background": "#9E3521",
+      "roles": [
+        "surface",
+        "actionHover"
+      ],
+      "ratio": 6.97,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "foreground": "#FFFEFA",
+      "background": "#862D1C",
+      "roles": [
+        "surface",
+        "actionPressed"
+      ],
+      "ratio": 8.65,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "foreground": "#226043",
+      "background": "#E5EFE7",
+      "roles": [
+        "allow",
+        "allowTint"
+      ],
+      "ratio": 6.32,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "foreground": "#79500C",
+      "background": "#FFF1CC",
+      "roles": [
+        "counsel",
+        "counselTint"
+      ],
+      "ratio": 6.31,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "foreground": "#942F32",
+      "background": "#FBE7E7",
+      "roles": [
+        "deny",
+        "denyTint"
+      ],
+      "ratio": 6.52,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "foreground": "#4D3AA0",
+      "background": "#FFFEFA",
+      "roles": [
+        "focus",
+        "surface"
+      ],
+      "ratio": 8.57,
+      "threshold": 3,
+      "pass": true
+    },
+    {
+      "foreground": "#D8CEF2",
+      "background": "#202522",
+      "roles": [
+        "lilac",
+        "ink"
+      ],
+      "ratio": 10.4,
+      "threshold": 3,
+      "pass": true
+    },
+    {
+      "foreground": "#8B948D",
+      "background": "#FFFEFA",
+      "roles": [
+        "border",
+        "surface"
+      ],
+      "ratio": 3.1,
+      "threshold": 3,
+      "pass": true
+    },
+    {
+      "foreground": "#FFFEFA",
+      "background": "#202522",
+      "roles": [
+        "surface",
+        "ink"
+      ],
+      "ratio": 15.42,
+      "threshold": 4.5,
+      "pass": true
+    }
+  ]
+}
