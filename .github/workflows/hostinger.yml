@@ -1,0 +1,49 @@
+name: Publish Hostinger website
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: hostinger-publish
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+          cache-dependency-path: website/package-lock.json
+      - name: Install dependencies
+        working-directory: website
+        run: npm ci
+      - name: Build website
+        working-directory: website
+        run: npm run build
+      - name: Update deployment branch
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -f website/dist/index.html
+          test -f website/dist/.htaccess
+          git fetch origin hostinger
+          publish_dir="$RUNNER_TEMP/hostinger-publish"
+          git worktree add --detach "$publish_dir" FETCH_HEAD
+          rsync -a --delete --exclude='.git' --exclude='*.map' website/dist/ "$publish_dir/"
+          git -C "$publish_dir" config user.name 'github-actions[bot]'
+          git -C "$publish_dir" config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git -C "$publish_dir" add --all
+          if git -C "$publish_dir" diff --cached --quiet; then
+            echo 'Published files are already current.'
+            exit 0
+          fi
+          git -C "$publish_dir" commit -m "Publish website from ${GITHUB_SHA}"
+          git -C "$publish_dir" push origin HEAD:hostinger
