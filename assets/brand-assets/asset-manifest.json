@@ -1,0 +1,97 @@
+{
+  "status": "Brand foundation assets; not deployed website",
+  "date": "2026-10-08",
+  "originalAssets": [
+    "logo variants",
+    "favicon/app icons",
+    "UI/module icon sprite"
+  ],
+  "wordmark": "Primary/reverse/monochrome and compact SVG lockups have outlined glyphs; logo-editable.svg retains text. Manrope weight 650.",
+  "fonts": [
+    {
+      "file": "fonts/Manrope[wght].ttf",
+      "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/manrope/Manrope%5Bwght%5D.ttf",
+      "sha256": "3ae11c49db0455a3cc33e37d380f20fdb8c7f8b41dc07625c177e3d87a9d6ae6",
+      "license": "OFL-1.1"
+    },
+    {
+      "file": "fonts/manrope-OFL.txt",
+      "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/manrope/OFL.txt",
+      "sha256": "58172e0c0fac2cda8a37b348164bb55e44b0e69051e557e92b1d3f6910141f7b",
+      "license": "OFL-1.1"
+    },
+    {
+      "file": "fonts/IBMPlexMono-Medium.ttf",
+      "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexmono/IBMPlexMono-Medium.ttf",
+      "sha256": "a9b4c49bb299e05b5f6c481e7fb5e78943d2793249a0c8874ab574a2d1ea6755",
+      "license": "OFL-1.1"
+    },
+    {
+      "file": "fonts/IBMPlexMono-Regular.ttf",
+      "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexmono/IBMPlexMono-Regular.ttf",
+      "sha256": "6a3412f058c7d8dfd9170c41e85ade48e5156ecb89356110ca57a0a27734af46",
+      "license": "OFL-1.1"
+    },
+    {
+      "file": "fonts/ibmplexmono-OFL.txt",
+      "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexmono/OFL.txt",
+      "sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da",
+      "license": "OFL-1.1"
+    }
+  ],
+  "socialAssets": {
+    "LinkedIn": "Official permitted asset and real profile URL pending; no active link",
+    "Crunchbase": "Official permitted asset and real profile URL pending; no active link"
+  },
+  "icons": [
+    "arrow-right",
+    "chevron-down",
+    "close",
+    "menu",
+    "search",
+    "check",
+    "review",
+    "deny",
+    "info",
+    "warning",
+    "external",
+    "download",
+    "email",
+    "eye",
+    "eye-off",
+    "play",
+    "pause",
+    "reset",
+    "source",
+    "rights-desk",
+    "rights-review",
+    "rights-proof",
+    "rights-signal",
+    "rights-report",
+    "person",
+    "lock"
+  ],
+  "files": [
+    "app-icon-192.png",
+    "app-icon-512.png",
+    "apple-touch-icon.png",
+    "favicon-16.png",
+    "favicon-32.png",
+    "favicon-48.png",
+    "favicon.ico",
+    "favicon.svg",
+    "icons.svg",
+    "logo-compact.svg",
+    "logo-editable.svg",
+    "logo-mono.svg",
+    "logo-primary.png",
+    "logo-primary.svg",
+    "logo-reverse.png",
+    "logo-reverse.svg",
+    "mark-mono.svg",
+    "mark-primary.png",
+    "mark-primary.svg",
+    "mark-reverse.svg",
+    "site.webmanifest"
+  ]
+}
