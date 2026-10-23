@@ -9,3 +9,5 @@
 .motion-disabled .suite-panel{position:relative!important;top:auto!important}.motion-disabled *{scroll-behavior:auto!important}.site-header a,.site-header button{outline-offset:3px}
 
 .page-loading{min-height:50vh;display:grid;place-items:center;font:12px var(--mono)}[id]{scroll-margin-top:110px}main:focus{outline:none}.ink .lead,.dark .lead{color:#DDE7DC}
+
+.company-address{font-style:normal;line-height:1.65}.site-footer .company-address{margin:6px 0 18px;color:inherit;font-size:13px;opacity:.78}

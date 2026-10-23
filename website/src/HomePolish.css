@@ -76,3 +76,5 @@
 
 @media(max-width:380px){.site-header .brand img{width:130px}}
 @media(max-width:350px){.site-header .brand img{width:104px}.site-header .header-inner{width:calc(100% - 24px);gap:5px}.site-header .header-actions{gap:4px}}
+
+.funding-announcement{background:#e9e4f2;border-top:1px solid rgba(32,37,34,.15);border-bottom:1px solid rgba(32,37,34,.15)}.funding-announcement-inner{display:grid;grid-template-columns:170px 1fr auto;align-items:center;gap:24px;padding-top:22px;padding-bottom:22px}.funding-announcement .eyebrow{margin:0;color:#725b7d}.funding-announcement p{margin:0;font-size:clamp(15px,1.45vw,19px);line-height:1.4}.funding-announcement a{display:inline-flex;align-items:center;gap:12px;color:inherit;text-decoration:none;font-weight:600;white-space:nowrap}.funding-announcement a:hover{text-decoration:underline}.funding-announcement a svg{width:18px;height:18px}@media(max-width:800px){.funding-announcement-inner{grid-template-columns:1fr;gap:12px;padding-top:20px;padding-bottom:22px}.funding-announcement a{white-space:normal}}
